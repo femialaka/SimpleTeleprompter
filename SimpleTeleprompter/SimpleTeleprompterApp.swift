@@ -1,17 +1,21 @@
+
 //
-//  SimpleTeleprompterApp.swift
-//  SimpleTeleprompter
+//  VideoPrompterApp.swift
+//  VideoPrompter
 //
-//  Created by femi alaka on 22/06/2022.
+//  Created by femi alaka on 24/03/2022.
 //
 
 import SwiftUI
 
+
 @main
 struct SimpleTeleprompterApp: App {
+    let teleprompter = TeleprompterSession()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(teleprompter: teleprompter)
+           
         }
     }
 }

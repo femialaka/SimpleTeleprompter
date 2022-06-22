@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F78AE6782863B907008CC903 /* data.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F78AE6762863B907008CC903 /* data.pdf */; };
+		F78AE6792863B907008CC903 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = F78AE6772863B907008CC903 /* data.txt */; };
 		F7A1EBD72863B527007F1CC1 /* SimpleTeleprompterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBD62863B527007F1CC1 /* SimpleTeleprompterApp.swift */; };
 		F7A1EBD92863B527007F1CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBD82863B527007F1CC1 /* ContentView.swift */; };
 		F7A1EBDB2863B528007F1CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A1EBDA2863B528007F1CC1 /* Assets.xcassets */; };
 		F7A1EBDE2863B528007F1CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A1EBDD2863B528007F1CC1 /* Preview Assets.xcassets */; };
+		F7A1EBE52863B6E9007F1CC1 /* ScrollModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBE42863B6E9007F1CC1 /* ScrollModifier.swift */; };
+		F7A1EBE72863B709007F1CC1 /* ScriptModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBE62863B709007F1CC1 /* ScriptModifier.swift */; };
+		F7A1EBE92863B72E007F1CC1 /* ScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBE82863B72E007F1CC1 /* ScriptView.swift */; };
+		F7A1EBEB2863B74D007F1CC1 /* TeleprompterSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */; };
+		F7A1EBED2863B76A007F1CC1 /* Teleprompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */; };
+		F7A1EBEF2863B797007F1CC1 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F78AE6762863B907008CC903 /* data.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = data.pdf; sourceTree = "<group>"; };
+		F78AE6772863B907008CC903 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		F7A1EBD32863B527007F1CC1 /* SimpleTeleprompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTeleprompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A1EBD62863B527007F1CC1 /* SimpleTeleprompterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTeleprompterApp.swift; sourceTree = "<group>"; };
 		F7A1EBD82863B527007F1CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7A1EBDA2863B528007F1CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A1EBDD2863B528007F1CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7A1EBE42863B6E9007F1CC1 /* ScrollModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollModifier.swift; sourceTree = "<group>"; };
+		F7A1EBE62863B709007F1CC1 /* ScriptModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptModifier.swift; sourceTree = "<group>"; };
+		F7A1EBE82863B72E007F1CC1 /* ScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptView.swift; sourceTree = "<group>"; };
+		F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterSession.swift; sourceTree = "<group>"; };
+		F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teleprompter.swift; sourceTree = "<group>"; };
+		F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,8 @@
 		F7A1EBCA2863B527007F1CC1 = {
 			isa = PBXGroup;
 			children = (
+				F78AE6762863B907008CC903 /* data.pdf */,
+				F78AE6772863B907008CC903 /* data.txt */,
 				F7A1EBD52863B527007F1CC1 /* SimpleTeleprompter */,
 				F7A1EBD42863B527007F1CC1 /* Products */,
 			);
@@ -55,6 +73,12 @@
 				F7A1EBD82863B527007F1CC1 /* ContentView.swift */,
 				F7A1EBDA2863B528007F1CC1 /* Assets.xcassets */,
 				F7A1EBDC2863B528007F1CC1 /* Preview Content */,
+				F7A1EBE42863B6E9007F1CC1 /* ScrollModifier.swift */,
+				F7A1EBE62863B709007F1CC1 /* ScriptModifier.swift */,
+				F7A1EBE82863B72E007F1CC1 /* ScriptView.swift */,
+				F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */,
+				F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */,
+				F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */,
 			);
 			path = SimpleTeleprompter;
 			sourceTree = "<group>";
@@ -125,8 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78AE6792863B907008CC903 /* data.txt in Resources */,
 				F7A1EBDE2863B528007F1CC1 /* Preview Assets.xcassets in Resources */,
 				F7A1EBDB2863B528007F1CC1 /* Assets.xcassets in Resources */,
+				F78AE6782863B907008CC903 /* data.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A1EBEF2863B797007F1CC1 /* PDFKitView.swift in Sources */,
+				F7A1EBED2863B76A007F1CC1 /* Teleprompter.swift in Sources */,
 				F7A1EBD92863B527007F1CC1 /* ContentView.swift in Sources */,
+				F7A1EBEB2863B74D007F1CC1 /* TeleprompterSession.swift in Sources */,
+				F7A1EBE92863B72E007F1CC1 /* ScriptView.swift in Sources */,
 				F7A1EBD72863B527007F1CC1 /* SimpleTeleprompterApp.swift in Sources */,
+				F7A1EBE52863B6E9007F1CC1 /* ScrollModifier.swift in Sources */,
+				F7A1EBE72863B709007F1CC1 /* ScriptModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
