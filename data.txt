@@ -1,25 +1,47 @@
-START START START START START Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-Theres a lot going on in the world right now If youre not Canadian then the protest in
-Ottawa might not be top of your list of things to worry about But Im afraid you
-should be worried You should certainly be paying attention Whats unfolding in Ottawa
-is not a grassroots protest that has spontaneously erupted out of the frustration of local
-lorry drivers Rather its an astroturfed movement – one that creates an impression of
-widespread grassroots support where little exists – funded by a global network of highly
-organised farright groups and amplified by Facebooks misinformation machine The drama
-may be centred in Canada but what is unfolding has repercussions for us all
-They may be a fringe minority but that doesnt mean you should as Trudeau seems to be doing
-downplay or dismiss them For one they have a lot of powerful supporters The usual crowd of
-rightwing politicians in the US including Donald Trump and Ted Cruz have been cheering them on
-They have also been getting millions of dollars in funding across crowdfunding sites from international donors
-Donations from abroad are quite a common part of any large crowdfunding campaign Ciaran OConnor
-Overtly racist white people defacing national monuments while simultaneously griping about how put upon they are
 
-Garossino of Canadas National Observer wrote For all the Sturm und Drang the convoy is an extraordinarily weak
-country where 500000 showed up to a climate march in Montreal Or even 60000 to a marijuana celebration in Vancouver
-Absent the trucks which are really just big noisy props it was essentially a national antivax rally which has now
-that police are afraid to break it up The low turnout is even more surprising in the midst of massive American
-Trump orbit Fox News Donald Trump Jr Tucker Carlson Mike Flynn Joe Rogan and many others
-Small loud and obnoxious Yep thats the American stupids Canada Youve got a bad case Im afraid
-Id offer to send some chicken noodle soup or something but your protesters would likely erupt in claims that a liberal
-LASTLASTLASTLAST.
+What is SwiftUI?
 
+SwiftUI lets you build better apps, faster, and with less code. It’s a developer’s dream come true! With SwiftUI, you can design your user interfaces in a declarative way; instead of developing app interfaces in an imperative way, by coding all of the application state logic before time, you can instead define what your app’s UI should do in a particular state and let the underlying OS figure out how to do it. What’s more is that SwiftUI lets you build modern, responsive UI and animations for all Apple devices — not just iOS. So whether you’re building apps for iOS, watchOS, tvOS or any other Apple platform, you can use the same concise, natural language to describe your UI and have it look stunning — no matter where your code runs. In addition, SwiftUI’s built-in automatic support for things such as dark mode, localization and accessibility, along with Xcode 11 support for drag-and-drop design and instant preview makes it easier to build apps than ever before.
+
+
+Navigation API
+
+Leverage programmatic control over your app’s navigation behavior to set its launch state, manage transitions between size classes, respond to deep links, and more.
+
+Swift Charts
+
+Visualize data with highly customizable charts that look and feel great across all Apple platforms. Swift Charts uses the compositional syntax of SwiftUI to create views with many possibilities, from line and bar charts to advanced types like stream graphs. Swift Charts also supports VoiceOver to deliver information to all your users.
+
+Advanced layout control
+
+Build advanced, reusable layouts to power the design of your app. In addition to VStack and HStack, SwiftUI now offers a new Grid API to simultaneously align views both horizontally and vertically. There’s also a new low-level custom Layout API, giving you full control to build exactly the layout your app needs. And SwiftUI now includes ViewThatFits, which lets you specify multiple variations of a given view and lets SwiftUI automatically choose the one that best fits in the available space.
+
+
+Support for additional components
+
+SwiftUI continues to expand to cover many more existing UI components, like half sheets that slide up over a main view when a user wants to see more information or share sheets that let users take advantage of all the Share Extensions installed on their device. And the multicolumn table API from Mac is now available on iPad, making it easier than ever to present tabular data.
+
+
+Improvements for macOS
+
+Support for windowing on macOS is improved with single, unique windows and new modifiers for window position, size, and resizability. Build menu bar extras with SwiftUI to provide access to your app’s functionality from anywhere on Mac.
+
+
+New Sharing API
+
+The new Transferable protocol makes your data available for the clipboard, drag and drop, and the Share Sheet, which can now be invoked directly using SwiftUI.
+
+
+Better UIKit interoperability
+
+SwiftUI is designed to work alongside other interface frameworks. Now you can easily write custom UICollectionView cells using the declarative syntax of SwiftUI. These custom cells fully integrate with UIKit, providing all the expected functionality, such as swipe actions and cell backgrounds.
+
+
+Widgets on the Lock Screen
+
+Make your widgets look great on the Lock Screen with SwiftUI. Compose beautiful icons, gauges, and other elements to give your users quick information at a glance.
+
+Works with UIKit and AppKit
+
+SwiftUI is designed to work alongside UIKit and AppKit, so you can adopt it incrementally in your existing apps. When it’s time to construct a new part of your user interface or rebuild an existing one, you can use SwiftUI while keeping the rest of your codebase.
+And if you want to use an interface element that isn’t offered in SwiftUI, you can mix and match SwiftUI with UIKit and AppKit to take advantage of the best of all worlds.

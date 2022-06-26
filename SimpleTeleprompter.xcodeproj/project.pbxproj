@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F78AE6782863B907008CC903 /* data.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F78AE6762863B907008CC903 /* data.pdf */; };
 		F78AE6792863B907008CC903 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = F78AE6772863B907008CC903 /* data.txt */; };
 		F7A1EBD72863B527007F1CC1 /* SimpleTeleprompterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBD62863B527007F1CC1 /* SimpleTeleprompterApp.swift */; };
 		F7A1EBD92863B527007F1CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1EBD82863B527007F1CC1 /* ContentView.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F78AE6762863B907008CC903 /* data.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = data.pdf; sourceTree = "<group>"; };
 		F78AE6772863B907008CC903 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		F7A1EBD32863B527007F1CC1 /* SimpleTeleprompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTeleprompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A1EBD62863B527007F1CC1 /* SimpleTeleprompterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTeleprompterApp.swift; sourceTree = "<group>"; };
@@ -35,6 +33,7 @@
 		F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterSession.swift; sourceTree = "<group>"; };
 		F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teleprompter.swift; sourceTree = "<group>"; };
 		F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		F7ED84402867F520005E397F /* teleprompter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = teleprompter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,6 @@
 		F7A1EBCA2863B527007F1CC1 = {
 			isa = PBXGroup;
 			children = (
-				F78AE6762863B907008CC903 /* data.pdf */,
 				F78AE6772863B907008CC903 /* data.txt */,
 				F7A1EBD52863B527007F1CC1 /* SimpleTeleprompter */,
 				F7A1EBD42863B527007F1CC1 /* Products */,
@@ -79,6 +77,7 @@
 				F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */,
 				F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */,
 				F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */,
+				F7ED84402867F520005E397F /* teleprompter.mp4 */,
 			);
 			path = SimpleTeleprompter;
 			sourceTree = "<group>";
@@ -152,7 +151,6 @@
 				F78AE6792863B907008CC903 /* data.txt in Resources */,
 				F7A1EBDE2863B528007F1CC1 /* Preview Assets.xcassets in Resources */,
 				F7A1EBDB2863B528007F1CC1 /* Assets.xcassets in Resources */,
-				F78AE6782863B907008CC903 /* data.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
