@@ -69,6 +69,7 @@
 			children = (
 				F7A1EBD62863B527007F1CC1 /* SimpleTeleprompterApp.swift */,
 				F7A1EBD82863B527007F1CC1 /* ContentView.swift */,
+				F7ED84402867F520005E397F /* teleprompter.mp4 */,
 				F7A1EBDA2863B528007F1CC1 /* Assets.xcassets */,
 				F7A1EBDC2863B528007F1CC1 /* Preview Content */,
 				F7A1EBE42863B6E9007F1CC1 /* ScrollModifier.swift */,
@@ -77,7 +78,6 @@
 				F7A1EBEA2863B74D007F1CC1 /* TeleprompterSession.swift */,
 				F7A1EBEC2863B76A007F1CC1 /* Teleprompter.swift */,
 				F7A1EBEE2863B797007F1CC1 /* PDFKitView.swift */,
-				F7ED84402867F520005E397F /* teleprompter.mp4 */,
 			);
 			path = SimpleTeleprompter;
 			sourceTree = "<group>";
